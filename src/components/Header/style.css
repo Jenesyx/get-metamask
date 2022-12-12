@@ -1,0 +1,20 @@
+.nav {
+    justify-content: center;
+    align-items: center;
+}
+
+.nav button {
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    background: linear-gradient(to right, #2176a4 10%, #572fa1 100%);
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 2s ease-in-out;
+}
+
+.nav .disconnectButton {
+    background: linear-gradient(to right, #aa2222 10%, #b620bb 100%);
+}
